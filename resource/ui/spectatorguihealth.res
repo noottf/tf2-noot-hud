@@ -85,7 +85,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Roboto-Light20"
-		"fgcolor"		"NootShadow"
+		"fgcolor"		"NootBlack"
 	}
 	"PlayerStatusPlayerLevel"
 	{
