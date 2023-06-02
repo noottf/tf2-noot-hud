@@ -29,12 +29,21 @@ Scheme
 		"NootShadowTransp"		"0 0 0 95"
 		
 		"NootHealthyGreen"		"95 255 95 255"
-		"NootUnhealthyRed"		"255 0 95 255"
-		"NootWarningRed"		"191 0 0 255"
+		"NootUnhealthyRed"		"191 0 0 255"
+		"NootVoteGreen"			"0 255 63 255"
+		"NootVoteRed"			"223 0 0 255"
 		
+		"NootWarningRed"		"255 0 63 255"
 		"NootHighlightCyan"		"0 255 255 255"
-		"NootHighlightPink"		"255 255 0 255"
+		"NootHighlightPink"		"255 0 159 255"
 		
+		"NootTeamRed"			"255 63 63 255"
+		"NootTeamRedPanel"		"176 73 74 255"
+		"NootTeamRedFont"		"255 62 62 255"
+		
+		"NootTeamBlue"			"95 159 223 255"
+		"NootTeamBluePanel"		"79 117 143 255"
+		"NootTeamBlueFont"		"154 205 255 255"
 		
 		// base colors
 		
@@ -3083,6 +3092,17 @@ Scheme
 			}
 		}
 		
+		"Roboto-Medium20"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"20"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		
 		"Roboto-Medium18"
 		{
 			"1"
@@ -3149,6 +3169,17 @@ Scheme
 			}
 		}
 		
+		"Roboto-Medium6"
+		{
+			"1"
+			{
+				"name"		"Roboto Medium"
+				"tall"		"6"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		
 		"Roboto-Regular48"
 		{
 			"1"
@@ -3177,6 +3208,17 @@ Scheme
 			{
 				"name"		"Roboto Regular"
 				"tall"		"24"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		
+		"Roboto-Regular20"
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"20"
 				"antialias"	"1"
 				"additive"	"0"
 			}
@@ -3248,6 +3290,17 @@ Scheme
 			}
 		}
 		
+		"Roboto-Regular6"
+		{
+			"1"
+			{
+				"name"		"Roboto Regular"
+				"tall"		"6"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		
 		"Roboto-Light48"
 		{
 			"1"
@@ -3276,6 +3329,17 @@ Scheme
 			{
 				"name"		"Roboto Light"
 				"tall"		"24"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		
+		"Roboto-Light20"
+		{
+			"1"
+			{
+				"name"		"Roboto Light"
+				"tall"		"20s"
 				"antialias"	"1"
 				"additive"	"0"
 			}
@@ -3342,6 +3406,17 @@ Scheme
 			{
 				"name"		"Roboto Light"
 				"tall"		"8"
+				"antialias"	"1"
+				"additive"	"0"
+			}
+		}
+		
+		"Roboto-Light6"
+		{
+			"1"
+			{
+				"name"		"Roboto Light"
+				"tall"		"6"
 				"antialias"	"1"
 				"additive"	"0"
 			}

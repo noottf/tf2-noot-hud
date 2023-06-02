@@ -10,6 +10,6 @@
 		"NegativeColor"			"NootUnhealthyRed"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Roboto-Light24"
-		"delta_item_font_big"	"Roboto-Medium24"
+		"delta_item_font_big"	"Roboto-Light36"
 	}
 }

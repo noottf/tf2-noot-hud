@@ -56,7 +56,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"3"
+		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"30"
 		"tall"					"10"
@@ -69,7 +69,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto-Regular10"
+		"font"					"Roboto-Light8"
 		"fgcolor"				"NootWhite"
 	}
 	"ItemEffectMeterLabelShadow"
@@ -77,8 +77,8 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabelShadow"
 		"xpos"					"1"
-		"ypos"					"4"
-		"zpos"					"2"
+		"ypos"					"3"
+		"zpos"					"1"
 		"wide"					"30"
 		"tall"					"10"
 		"autoResize"			"1"
@@ -90,7 +90,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto-Regular10"
+		"font"					"Roboto-Light8"
 		"fgcolor"				"NootShadow"
 	}
 	
@@ -111,7 +111,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto-Medium16"
+		"font"					"Roboto-Light16"
 		"fgcolor"				"NootWhite"
 	}
 	
@@ -121,7 +121,7 @@
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"37"
 		"ypos"					"1"
-		"zpos"					"2"
+		"zpos"					"1"
 		"wide"					"40"
 		"tall"					"14"	
 		"pinCorner"				"2"
@@ -132,7 +132,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Roboto-Medium16"
+		"font"					"Roboto-Light16"
 		"fgcolor"				"NootShadow"
 	}
 }

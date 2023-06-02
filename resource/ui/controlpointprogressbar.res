@@ -66,9 +66,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"ProgressText"
-		"font"				"Roboto-Regular10"
+		"font"				"Roboto-Light8"
 		"xpos"				"0"
-		"ypos"				"14"
+		"ypos"				"15"
 		"zpos"				"23"
 		"wide"				"100"
 		"tall"				"40"
@@ -80,7 +80,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"centerwrap"		"1"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"NootWhite"
 	}
 
 	"Blocked"
