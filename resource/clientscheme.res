@@ -28,6 +28,11 @@ Scheme
 		"NootShadow"			"0 0 0 191"
 		"NootShadowTransp"		"0 0 0 95"
 		
+		"NootDeathNoticeRed"	"223 0 0 255"
+		"NootDeathNoticeBlue"	"0 103 223 255"
+		
+		// old
+		
 		"NootHealthyGreen"		"95 255 95 255"
 		"NootUnhealthyRed"		"191 0 0 255"
 		"NootVoteGreen"			"0 255 63 255"
@@ -125,7 +130,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -1598,182 +1603,182 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		// "ScoreboardSmallest"
-		// {
-			// "1"
-			// {
-				// "name"		"Verdana"
-				// "tall"		"6"
-				// "weight"	"400"
-				// "additive"	"0"
-				// "antialias" "1"
-			// }
-		// }
-		// "ScoreboardVerySmall"
-		// {
-			// "1"
-			// {
-				// "name"		"Verdana"
-				// "tall"		"8"
-				// "tall_hidef"	"10"
-				// "tall_lodef"	"14"
-				// "weight"	"400"
-				// "additive"	"0"
-				// "antialias" "1"
-			// }
-		// }
-		// "ScoreboardSmall"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2 Secondary"
-				// "tall"		"10"
-				// "tall_hidef"	"12"
-				// "tall_lodef"	"14"
-				// "weight"	"400"
-				// "additive"	"0"
-				// "antialias" "1"
-			// }
-		// }
-		// "ScoreboardMediumSmall"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2"
-				// "tall"		"14"
-				// "weight"	"500"
-				// "range"		"0x0000 0x007F"	//	Basic Latin
-				// "antialias" "1"
-				// "additive"	"0"
-			// }
-		// }
-		// "ScoreboardMedium"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2 Secondary"
-				// "tall"		"20"
-				// "weight"	"500"
-				// "range"		"0x0000 0x007F"	//	Basic Latin
-				// "antialias" "1"
-				// "additive"	"0"
-			// }
-		// }
-		// "ScoreboardTeamName"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2 Secondary"
-				// "tall"		"20"
-				// "tall_hidef"	"24"
-				// "tall_lodef"	"24"
-				// "weight"	"500"
-				// "range"		"0x0000 0x007F"	//	Basic Latin
-				// "antialias" "1"
-				// "additive"	"0"
-			// }
-		// }
-		// "ScoreboardTeamCountNew"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2 Secondary"
-				// "tall"		"14"
-				// "weight"	"500"
-				// "range"		"0x0000 0x007F"	//	Basic Latin
-				// "antialias" "1"
-				// "additive"	"0"
-			// }
-		// }
-		// "ScoreboardTeamNameNew"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2 Secondary"
-				// "tall"		"20"
-				// "weight"	"500"
-				// "range"		"0x0000 0x007F"	//	Basic Latin
-				// "antialias" "1"
-				// "additive"	"0"
-			// }
-		// }
-		// "ScoreboardTeamNameLarge"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2 Secondary"
-				// "tall"		"34"
-				// "tall_hidef"	"38"
-				// "tall_lodef"	"38"
-				// "weight"	"500"
-				// "range"		"0x0000 0x007F"	//	Basic Latin
-				// "antialias" "1"
-				// "additive"	"0"
-			// }
-		// }
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"tall_hidef"	"10"
+				"tall_lodef"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"tall_hidef"	"12"
+				"tall_lodef"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardMediumSmall"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardMedium"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamName"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"tall_hidef"	"24"
+				"tall_lodef"	"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"34"
+				"tall_hidef"	"38"
+				"tall_lodef"	"38"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
-		// "ScoreboardTeamScoreNew"
- 		// {
-			// "1"
-			// {
-				// "name"		"TF2"
-				// "tall"		"36"
-				// "tall_hidef"	"48"
-				// "weight"	"500"
-				// "additive"	"0"
-				// "antialias" "1"
-			// }
-		// }
-		// "ScoreboardTeamScore"
-		// {
-			// "1"
-			// {
-				// "name"		"TF2"
-				// "tall"		"52"
-				// "tall_lodef"		"80"
-				// "range" 	"0x0000 0x00FF"
-				// "weight"	"400"
-				// "yres"		"1 599"
-				// "antialias" "1"
-			// }
-			// "2"
-			// {
-				// "name"		"TF2"
-				// "tall"		"72"
-				// "tall_hidef"	"120"
-				// "range" 	"0x0000 0x00FF"
-				// "weight"	"400"
-				// "yres"		"600 767"
-				// "antialias" "1"
-			// }
-			// "3"
-			// {
-				// "name"		"TF2"
-				// "tall"		"100"
-				// "range" 	"0x0000 0x00FF"
-				// "weight"	"400"
-				// "yres"		"768 1023"
-				// "antialias" "1"
-			// }
-			// "4"
-			// {
-				// "name"		"TF2"
-				// "tall"		"140"
-				// "range" 	"0x0000 0x00FF"
-				// "weight"	"400"
-				// "yres"		"1024 1199"
-				// "antialias" "1"
-			// }
-			// "5"
-			// {
-				// "name"		"TF2"
-				// "tall"		"180"
-				// "range" 	"0x0000 0x00FF"
-				// "weight"	"400"
-				// "yres"		"1200 10000"
-				// "antialias" "1"
-			// }
-		// }
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardTeamScore"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"52"
+				"tall_lodef"		"80"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1 599"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"TF2"
+				"tall"		"72"
+				"tall_hidef"	"120"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"600 767"
+				"antialias" "1"
+			}
+			"3"
+			{
+				"name"		"TF2"
+				"tall"		"100"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"768 1023"
+				"antialias" "1"
+			}
+			"4"
+			{
+				"name"		"TF2"
+				"tall"		"140"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1024 1199"
+				"antialias" "1"
+			}
+			"5"
+			{
+				"name"		"TF2"
+				"tall"		"180"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1200 10000"
+				"antialias" "1"
+			}
+		}
 		"MatchSummaryTeamScores"
 		{
 			"1"

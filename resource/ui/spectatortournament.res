@@ -46,15 +46,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"NootWhite"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
 			}
 			
 			"playernameshadow"
@@ -73,15 +64,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"NootShadow"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
 			}
 			
 			"classimage"
@@ -97,15 +79,6 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
@@ -121,11 +94,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"NootShadow"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
@@ -211,11 +179,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"NootWhite"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			
 			"chargeamount"
@@ -272,23 +235,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
+		}	
 	}
 
 	"topbar"

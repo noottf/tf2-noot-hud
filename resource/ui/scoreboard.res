@@ -5,7 +5,7 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"cs-0.5"
-		"ypos"			"60"
+		"ypos"			"45"
 		"wide"			"630"
 		"tall"			"390"
 		"autoResize"	"0"
@@ -81,7 +81,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"72"
-		"tall"			"14"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -101,14 +101,15 @@
 		"labelText"		"%servertime%"
 		"textAlignment"		"center"
 		"xpos"			"279"
-		"ypos"			"12"
+		"ypos"			"9"
 		"zpos"			"3"
 		"wide"			"72"
-		"tall"			"12"
+		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"centerwrap"			"1"
 		
 		if_mvm
 		{
@@ -140,10 +141,10 @@
 			"visible"		"0"
 		}
 	}					
-	"BlueTeamLabel"
+	"BlueTeamLabelNew"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabelNew"
 		"labelText"		"%blueteamname%"
 		"font"			"Roboto-Light24"
 		"fgcolor"		"NootWhite"
@@ -303,10 +304,10 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamLabelNew"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabelNew"
 		"labelText"		"%redteamname%"
 		"font"			"Roboto-Light24"
 		"fgcolor"		"NootWhite"
@@ -320,6 +321,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamLabelDropshadow"
 	{
@@ -338,6 +344,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"RedTeamPlayerCount"
 	{
@@ -534,14 +545,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"Roboto-Light24"
+		"font"			"Roboto-Light18"
 		"labelText"		"%playername%"
 		"textAlignment"	"center"
 		"xpos"			"18"
 		"ypos"			"324"
 		"zpos"			"41"
 		"wide"			"189"
-		"tall"			"24"
+		"tall"			"21"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -551,14 +562,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabelDropshadow"
-		"font"			"Roboto-Light24"
+		"font"			"Roboto-Light18"
 		"labelText"		"%playername%"
 		"textAlignment"	"center"
 		"xpos"			"19"
 		"ypos"			"325"
 		"zpos"			"41"
 		"wide"			"189"
-		"tall"			"24"
+		"tall"			"21"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -667,7 +678,7 @@
 			"font"			"Roboto-Light36"
 			"fgcolor"		"NootWhite"
 			"textAlignment"	"center"
-			"xpos"			"99"
+			"xpos"			"98"
 			"ypos"			"24"
 			"zpos"			"5"
 			"wide"			"75"
@@ -685,7 +696,7 @@
 			"font"			"Roboto-Light36"
 			"fgcolor"		"NootShadow"
 			"textAlignment"	"center"
-			"xpos"			"100"
+			"xpos"			"99"
 			"ypos"			"25"
 			"zpos"			"4"
 			"wide"			"75"
@@ -1483,6 +1494,17 @@
 	
 	// USELESS
 	
+	
+	"BlueTeamLabel"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"BlueTeamLabel"
+		"wide"			         					"0"
+		"tall"			          					"0"
+		"enabled"	          						"0"
+		"visible"									"0"
+		"zpos"										"99"
+	}
 	"BlueTeamImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -1507,6 +1529,16 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BlueLeaderAvatarBG"
+		"wide"			         					"0"
+		"tall"			          					"0"
+		"enabled"	          						"0"
+		"visible"									"0"
+		"zpos"										"99"
+	}
+	"RedTeamLabel"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"RedTeamLabel"
 		"wide"			         					"0"
 		"tall"			          					"0"
 		"enabled"	          						"0"

@@ -38,16 +38,14 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-42"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"82"
+		"tall"	"150"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 	
 	// Does this even do anything?
@@ -463,21 +461,22 @@
 		"tall"		"450"
 
 		"MaxDeathNotices"	"12"
-		"IconScale"	 		"0.35"
-		"LineHeight"	 	"14"
+		"IconScale"	 		"0.2"
+		"LineHeight"	 	"13"
 		"LineSpacing"	 	"2"
 		"CornerRadius"	 	"1"
 		"RightJustify"	 	"1"		// If 1, draw notices from the right
 		
-		"TextFont"			"Roboto-Regular10"
+		"TextFont"			"Roboto-Regular8"
 		
-		"TeamBlue"			"NootTeamBlue"
-		"TeamRed"			"NootTeamRed"
+		"TeamBlue"			"NootDeathNoticeBlue"
+		"TeamRed"			"NootDeathNoticeRed"
+	
 		"IconColor"			"NootWhite"
 		"LocalPlayerColor"	"NootBlack"
 
-		"BaseBackgroundColor"	"NootShadow"	//"46 43 42 220"
-		"LocalBackgroundColor"	"NootWhite"		//"245 229 196 200"´
+		"BaseBackgroundColor"	"NootShadow"
+		"LocalBackgroundColor"	"NootWhite"
 		
 	}
 
@@ -831,9 +830,9 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
+		"xpos"					"c-120"
+		"ypos"					"c0"
+		"wide"					"240"
 		"tall"					"300"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
