@@ -45,7 +45,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"CapNumPlayers"
-		"xpos"			"11"
+		"xpos"			"10"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"23"
@@ -58,7 +58,7 @@
 		"brighttext"	"0"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"	"west"
-		"font"			"Roboto-Regular12"
+		"font"			"Roboto-Light14"
 	}
 
 	"OverlayImage"
@@ -92,7 +92,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Roboto-Regular10"
+		"font"			"Roboto-Light10"
 	}
 				
 	"CPTimerBG"

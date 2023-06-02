@@ -10,50 +10,60 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
+		"team1_player_base_offset_x"		"0"
+		"team1_player_base_y"				"240"
+		"team1_player_delta_x"				"0"
+		"team1_player_delta_y"				"19"
+		
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"210"
+		"team2_player_delta_x"				"0"
+		"team2_player_delta_y"				"-19"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
-			"tall"			"33"
+			"wide"			"150"
+			"tall"			"18"
 			"zpos"			"1"
 			
-			"color_ready"	"0 255 0 220"
+			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 										  			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"font"			"Roboto-Light10"
+				"xpos"			"45"
+				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"105"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
+				"textAlignment"	"west"
+				"fgcolor"		"NootWhite"
+			}
+			
+			"playernameshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"playernameshadow"
+				"font"			"Roboto-Light10"
+				"xpos"			"46"
+				"ypos"			"1"
+				"zpos"			"5"
+				"wide"			"105"
+				"tall"			"18"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%playername%"
+				"textAlignment"	"west"
+				"fgcolor"		"NootShadow"
 			}
 			
 			"classimage"
@@ -61,62 +71,48 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"2"
-				"ypos"			"2"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"22"
-				"tall"			"22"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
+				"xpos"			"2"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"NootShadow"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
+				"xpos"				"17"
+				"ypos"				"0"
 				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
+				"wide"				"30"
+				"tall"				"18"
 				"visible"			"1"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
+				"HealthBonusPosAdj"	"0"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
+				"HealthDeathWarningColor"	"NootWarningRed"
 				"TextColor"					"HudOffWhite"
-			}
+			}	
 			
 			"ReadyBG"
 			{
@@ -171,41 +167,54 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"30"
-				"ypos"			"18"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
+				"font"			"Roboto-Light10"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"10"
+				"wide"			"22"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
+				"textAlignment"	"center"
+				"fgcolor"		"NootWhite"
 			}
 			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
+				"font"			"Roboto-Light14"
+				"xpos"			"117"
+				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
+				"wide"			"30"
+				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"textAlignment"	"east"
+				"fgcolor"		"NootHealthyGreen"
+			}
+			
+			"chargeamountshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountshadow"
+				"font"			"Roboto-Light14"
+				"xpos"			"118"
+				"ypos"			"1"
+				"zpos"			"6"
+				"wide"			"30"
+				"tall"			"18"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor"		"NootShadow"
 			}
 			
 			"specindex"
@@ -220,28 +229,13 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
+		}	
 	}
 
 	"topbar"
@@ -249,14 +243,14 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"visible"		"0"
-		"ypos"			"100"
+		"ypos"			"0"
 		"tall"			"0"
 	}
 	"bottombarblank"
@@ -270,25 +264,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-150"
-		"ypos"			"32"
-		"wide"			"300"
-		"tall"			"18"
-		"autoResize"		"0"
+		"xpos"			"c-300"
+		"ypos"			"66"
+		"wide"			"600"
+		"tall"			"12"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"Roboto-Light12"
 		
-		if_mvm
-		{
-			"xpos"			"c-190"
-			"ypos"			"1"
-			"wide"			"380"
-			"textAlignment"		"center"
-		}
+		if_mvm { }
 	}
 	"BuyBackLabel"
 	{

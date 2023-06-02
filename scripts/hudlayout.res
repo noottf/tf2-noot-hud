@@ -38,16 +38,14 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-42"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"82"
+		"tall"	"150"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 	
 	// Does this even do anything?
@@ -81,7 +79,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-70"
-		"ypos"			"c100"
+		"ypos"			"c105"
 		"wide"			"140"
 		"tall"			"20"
 		"zpos"			"1"
@@ -180,9 +178,9 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-70"
-		"ypos"					"c20"
+		"ypos"					"c"
 		"wide"					"140"
-		"tall"  				"90"
+		"tall"  				"140"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -231,7 +229,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c28"
+		"ypos"		"c30"
+		"zpos"		"3"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -251,6 +250,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"250"
+		"zpos"		"3"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
@@ -266,7 +266,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c58"
+		"ypos"		"c60"
+		"zpos"		"3"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
@@ -451,34 +452,32 @@
 
 	HudDeathNotice
 	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
-		"tall"	 "468"
+		"fieldName"	"HudDeathNotice"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"r615"
+		"ypos"		"13"	// 13 + 2
+		"wide"		"600"
+		"tall"		"450"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices"		"10"
+		"IconScale"	 			"0.2"
+		"LineHeight"	 		"12"
+		"LineSpacing"	 		"2"
+		"CornerRadius"	 		"1"
+		"RightJustify"	 		"1"		// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"				"Roboto-Medium8"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"				"NootTeamBlueIcon"
+		"TeamRed"				"NootTeamRedIcon"
+	
+		"IconColor"				"NootWhite"
+		"LocalPlayerColor"		"NootBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"NootShadow"
+		"LocalBackgroundColor"	"NootWhite"
+		
 	}
 
 	HudVehicle
@@ -831,9 +830,9 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
+		"xpos"					"c-120"
+		"ypos"					"c0"
+		"wide"					"240"
 		"tall"					"300"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
@@ -1093,7 +1092,6 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1116,11 +1114,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
-		"wide"					"125"
+		"xpos"					"c-42"
+		"ypos"					"33"
+		"wide"					"84"
 		"tall"					"70"
 	}
 	
