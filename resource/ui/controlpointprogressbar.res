@@ -1,0 +1,101 @@
+"Resource/UI/ControlPointProgressBar.res"
+{
+	"ControlPointProgressBar"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ControlPointProgressBar"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"100"
+		"tall"		"65"
+		"visible"	"0"
+		"enabled"	"1"
+	}
+
+	"ProgressBar"
+	{
+		"ControlName"	"CircularProgressBar"
+		"fieldName"	"ProgressBar"
+		"xpos"		"33"
+		"ypos"		"18"
+		"zpos"		"23"
+		"wide"		"34"
+		"tall"		"34"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"fg_image"	"progress_bar_blu"
+		"bg_image"	"progress_bar_blu"
+	}
+
+	"Teardrop"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"Teardrop"
+		"xpos"		"31"
+		"ypos"		"15"
+		"zpos"		"21"
+		"wide"		"39"
+		"tall"		"48"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_teardrop"
+		"iconColor"	"255 255 255 255"
+	}
+	
+	"TeardropSide"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"TeardropSide"
+		"xpos"		"31"
+		"ypos"		"16"
+		"zpos"		"21"
+		"wide"		"39"
+		"tall"		"39"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_teardrop"
+		"iconColor"	"255 255 255 255"
+	}
+
+	"ProgressText"
+	{	
+		"ControlName"		"Label"
+		"fieldName"			"ProgressText"
+		"font"				"Roboto-Regular10"
+		"xpos"				"0"
+		"ypos"				"14"
+		"zpos"				"23"
+		"wide"				"100"
+		"tall"				"40"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"progress"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"centerwrap"		"1"
+		"fgcolor_override"	"255 255 255 255"
+	}
+
+	"Blocked"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"Blocked"
+		"xpos"		"33"
+		"ypos"		"18"
+		"zpos"		"23"
+		"wide"		"34"
+		"tall"		"34"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_blocked"
+		"iconColor"	"255 255 255 255"
+	}
+}
