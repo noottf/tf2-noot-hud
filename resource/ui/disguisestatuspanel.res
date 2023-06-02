@@ -1,4 +1,4 @@
-"Resource/UI/DisguiseStatusPanel.res"
+"Resource/UI/ItemModelPanel.res"
 {
 	"itemmodelpanel" // ???
 	{
@@ -123,5 +123,5 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}
+	
 }

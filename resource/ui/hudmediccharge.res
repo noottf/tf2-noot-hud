@@ -81,10 +81,10 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"110"
-		"ypos"			"117"
+		"ypos"			"115"
 		"zpos"			"1"
 		"wide"			"140"
-		"tall"			"5"				
+		"tall"			"6"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -110,7 +110,7 @@
 		"enabled"			"1"
 		
 		"RoundedCorners"	"0"
-		"defaultbgcolor_override"	"63 63 63 255"
+		"defaultbgcolor_override"	"NootBlack"
 		"PaintBackgroundType"		"0"
         "textinsety" 				"99"
 	}	
@@ -132,7 +132,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"		"NootShadow"
 	}
 
 	"ChargeMeter2"
@@ -152,7 +151,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"		"NootShadow"
 	}
 
 	"ChargeMeter3"
@@ -172,7 +170,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"		"NootShadow"
 	}
 
 	"ChargeMeter4"
@@ -192,7 +189,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"		"NootShadow"
 	}
 
 	"ResistIconAnchor"
@@ -200,7 +196,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ResistIconAnchor"
 		"xpos"				"168"
-		"ypos"				"9"
+		"ypos"				"12"
 		"wide"				"5"
 		"tall"				"5"
 		"visible"			"1"

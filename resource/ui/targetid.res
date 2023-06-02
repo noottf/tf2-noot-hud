@@ -46,9 +46,9 @@
 			"zpos"              "-1"
 			"wide"	          	"320"
 			"tall"              "2"
-			"visible"           "0"
-			"enabled"           "0"
-			"fillcolor"         "95 175 223 255"
+			"visible"           "1"
+			"enabled"           "1"
+			"fillcolor"         "NootTeamBlue"
 		}
 	}
 	"TargetIDBG_Spec_Red" // 
@@ -72,14 +72,14 @@
 			"zpos"              "0"
 			"wide"	          	"320"
 			"tall"              "2"
-			"visible"           "0"
-			"enabled"           "0"
-			"fillcolor"         "255 79 79 255"
+			"visible"           "1"
+			"enabled"           "1"
+			"fillcolor"         "NootTeamRed"
 		}
 	}
 	"BackgroundImage"
 	{
-		"ControlName"       "CTFImagePanel"
+		"ControlName"       "ImagePanel"
 		"fieldName"         "BackgroundImage"
 		"xpos"              "0"
 		"ypos"              "11"
@@ -88,6 +88,20 @@
 		"tall"              "15"
 		"visible"           "1"
 		"enabled"           "1"
+		"fillcolor"         "NootShadowTransp"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"       "CTFImagePanel"
+		"fieldName"         "TeamIndicator"
+		"xpos"              "0"
+		"ypos"              "25"
+		"zpos"              "-2"
+		"wide"	          	"320"
+		"tall"              "2"
+		"visible"           "1"
+		"enabled"           "1"
+		"scaleImage"		"1"
 		"image"				"../hud/color_panel_brown"
 		"teambg_1"			"../hud/color_panel_brown"
 		"teambg_2"			"../hud/color_panel_red"
@@ -119,33 +133,11 @@
 		"brighttext"		"0"
 		"fgcolor_override"  "NootWhite"
 	}
-	"TargetNameLabelShadow"
-	{	
-		"ControlName"		"Label"
-		"fieldName"			"TargetNameLabelShadow"
-		"font"				"roboto-light10"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"1"
-		"wide"				"320"
-		"tall"				"24"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%targetname%"
-		"textAlignment"		"West"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"fgcolor_override"  "NootShadow"
-		
-		"pin_to_sibling"	"TargetNameLabel"
-	}
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"Roboto-Light8"
+		"font"				"Roboto-Regular6"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -182,10 +174,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AmmoIconAnchor"
-		"xpos"			"42"
+		"xpos"			"37"
 		"ypos"			"2"
-		"wide"			"7"
-		"tall"			"7"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -213,8 +205,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillStreakIconAnchor"
-		"xpos"			"4"
-		"ypos"			"0"
+		"xpos"			"2"
+		"ypos"			"2"
 		"wide"			"1"
 		"tall"			"1"
 		"visible"		"1"
@@ -228,8 +220,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"12"
-		"wide"			"11"
-		"tall"			"11"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
@@ -320,6 +312,21 @@
 			// "brighttext"		"0"
 		// }	
 	// }
+	"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"0"
+		"ypos"			"11"
+		"zpos"			"99"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"NootShadow"
+	}	
 }
 
 // "TargetIDBG_Spec_Blue" // ???

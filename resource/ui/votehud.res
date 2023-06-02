@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VotePassed"
-		"xpos"			"15"
+		"xpos"			"30"
 		"ypos"			"c-45"
 		"wide"			"150"
 		"tall"			"60"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VoteActive"
-		"xpos"			"15"
+		"xpos"			"30"
 		"ypos"			"c-60"
 		"wide"			"150"
 		"tall"			"120"
@@ -401,7 +401,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteFailed"
-		"xpos"			"15"
+		"xpos"			"30"
 		"ypos"			"c-45"
 		"wide"			"150"
 		"tall"			"60"
@@ -467,7 +467,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"VoteFailed"
-		"xpos"			"15"
+		"xpos"			"30"
 		"ypos"			"c-45"
 		"wide"			"150"
 		"tall"			"60"
