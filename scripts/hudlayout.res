@@ -180,9 +180,9 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-70"
-		"ypos"					"c27"
+		"ypos"					"c"
 		"wide"					"140"
-		"tall"  				"90"
+		"tall"  				"140"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -454,34 +454,31 @@
 
 	HudDeathNotice
 	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
-		"tall"	 "468"
+		"fieldName"	"HudDeathNotice"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"r615"
+		"ypos"		"13"	// 13 + 2
+		"wide"		"600"
+		"tall"		"450"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices"	"12"
+		"IconScale"	 		"0.35"
+		"LineHeight"	 	"14"
+		"LineSpacing"	 	"2"
+		"CornerRadius"	 	"1"
+		"RightJustify"	 	"1"		// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"			"Roboto-Regular10"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TeamBlue"			"NootTeamBlue"
+		"TeamRed"			"NootTeamRed"
+		"IconColor"			"NootWhite"
+		"LocalPlayerColor"	"NootBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"NootShadow"	//"46 43 42 220"
+		"LocalBackgroundColor"	"NootWhite"		//"245 229 196 200"´
+		
 	}
 
 	HudVehicle

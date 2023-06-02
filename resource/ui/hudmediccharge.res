@@ -110,7 +110,7 @@
 		"enabled"			"1"
 		
 		"RoundedCorners"	"0"
-		"defaultbgcolor_override"	"NootBlack"
+		"defaultbgcolor_override"	"63 63 63 255"
 		"PaintBackgroundType"		"0"
         "textinsety" 				"99"
 	}	
@@ -132,6 +132,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"NootShadow"
 	}
 
 	"ChargeMeter2"
@@ -151,6 +152,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"NootShadow"
 	}
 
 	"ChargeMeter3"
@@ -170,6 +172,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"NootShadow"
 	}
 
 	"ChargeMeter4"
@@ -189,6 +192,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"		"NootShadow"
 	}
 
 	"ResistIconAnchor"
