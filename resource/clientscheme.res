@@ -1,22 +1,8 @@
-//
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
 Scheme
 {
-	//Name - currently overriden in code
-	//{
-	//	"Name"	"ClientScheme"
-	//}
-
-	//////////////////////// COLORS ///////////////////////////
+    // COLORS
+    // Referenced by various properties of panels, animations, etc.
+    // Colors added for this HUD are prefixed with 'Noot'. Other colors are stock.
 	Colors
 	{
 		// noot-hud
@@ -33,8 +19,6 @@ Scheme
 		"NootTeamBlue"			"79 117 143 255"
 		"NootTeamRedIcon"		"189 59 60 255"
 		"NootTeamBlueIcon"		"90 122 143 255"
-		
-		// deprecated
 		
 		"NootHealthyGreen"		"95 255 95 255"
 		"NootUnhealthyRed"		"191 0 0 255"
