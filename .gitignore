@@ -1,6 +1,2 @@
 sound/
-/.idea/.gitignore
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/noot-hud.iml
-/.idea/vcs.xml
+.idea/
