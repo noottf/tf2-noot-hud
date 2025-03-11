@@ -1,7 +1,7 @@
 "Resource/UI/ControlPointCountdown.res"
 {
-    // The countdown inside the control point icon, typically used for the delay until the control point of a KOTH map
-    // is unlocked. Contained within "Countdown" from "Resource/UI/ControlPointIcon.res".
+	// The countdown inside the control point icon, typically used for the delay until the control point of a KOTH map
+	// is unlocked. Contained within "Countdown" from "Resource/UI/ControlPointIcon.res".
 	"CapCountdownLabel"
 	{	
 		"ControlName"		"CExLabel"

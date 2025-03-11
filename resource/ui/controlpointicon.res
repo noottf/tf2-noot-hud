@@ -1,8 +1,8 @@
 "Resource/UI/ControlPointIcon.res"
 {
-    // Represents the status of a control point. Contained within HudControlPointIcons from "Resource/HudLayout.res".
-    // Contains various other elements defined below.
-    // UNKNOWN: Contains a 'BaseImage' element, which appears to be unaccounted for in the HUD files.
+	// Represents the status of a control point. Contained within HudControlPointIcons from "Resource/HudLayout.res".
+	// Contains various other elements defined below.
+	// UNKNOWN: Contains a 'BaseImage' element, which appears to be unaccounted for in the HUD files.
 	"ControlPointIcon"
 	{
 		"ControlName"	"EditablePanel"
@@ -31,9 +31,9 @@
 		"enabled"	    "1"
 	}	
 
-    // The icon that is displayed inside the control point icon when someone is capturing the control point that looks
-    // like a person standing. When more than one person is capturing the point, it gets moved to the side to make room
-    // for the "CapNumPlayers". Contained within "ControlPointIcon".
+	// The icon that is displayed inside the control point icon when someone is capturing the control point that looks
+	// like a person standing. When more than one person is capturing the point, it gets moved to the side to make room
+	// for the "CapNumPlayers". Contained within "ControlPointIcon".
 	"CapPlayerImage"
 	{
 		"ControlName"	"ImagePanel"		
@@ -49,9 +49,9 @@
 		"scaleImage"	"1"
 	}
 
-    // Appears when a control point is being captured at a rate higher than 1 player and gets positioned next to the
-    // "CapNumPlayers". The text is prepended with an 'x', so if 3 players are capturing the point it would read 'x3'.
-    // Contained within "ControlPointIcon".
+	// Appears when a control point is being captured at a rate higher than 1 player and gets positioned next to the
+	// "CapNumPlayers". The text is prepended with an 'x', so if 3 players are capturing the point it would read 'x3'.
+	// Contained within "ControlPointIcon".
 	"CapNumPlayers"
 	{	
 		"ControlName"	"Label"
@@ -72,9 +72,9 @@
 		"font"			"Roboto-Light14"
 	}
 
-    // Appears on the top right of the control point icon to specify which control point it is. For example, on
-    // cp_steel it reads 'A', 'B', 'C', 'D' and 'E' respectively, though these letters appear to be images not labels.
-    // Contained within "ControlPointIcon".
+	// Appears on the top right of the control point icon to specify which control point it is. For example, on
+	// cp_steel it reads 'A', 'B', 'C', 'D' and 'E' respectively, though these letters appear to be images not labels.
+	// Contained within "ControlPointIcon".
 	"OverlayImage"
 	{
 		"ControlName"	"ImagePanel"		
@@ -90,7 +90,7 @@
 		"scaleImage"	"1"
 	}
 
-    // UNKNOWN: Unclear if and when this appears. This might be for the timer on cp_degrootkeep?
+	// UNKNOWN: Unclear if and when this appears. This might be for the timer on cp_degrootkeep?
 	"CPTimerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -110,7 +110,7 @@
 		"font"			"Roboto-Light10"
 	}
 
-    // UNKNOWN: Unclear if and when this appears. This might be for the timer on cp_degrootkeep?
+	// UNKNOWN: Unclear if and when this appears. This might be for the timer on cp_degrootkeep?
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
