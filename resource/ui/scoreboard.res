@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"0"
-		"avatar_width"		"65"
+		"avatar_width"		"32"
 		"spacer"			"5"
 		"name_width"		"118"
 		"killstreak_width"	"12"
@@ -449,56 +449,49 @@
 	}
 	
 	// MATCH-INFO
-	
+
+	// Name of the server
 	"ServerLabelNew"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabelNew"
-		"labelText"		"%server%"
-		"font"			"Roboto-Regular8"
-		"fgcolor"		"NootWhite"
-		"textAlignment"	"east"
-		"xpos"			"342"
-		"ypos"			"294"
-		"zpos"			"30"
-		"wide"			"270"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"ControlName"   "CExLabel"
+		"fieldName"     "ServerLabelNew"
+		"labelText"     "%server%"
+		"font"          "Roboto-Regular8"
+		"fgcolor"       "NootWhite"
+		"textAlignment" "east"
+		"xpos"          "342"
+		"ypos"          "303"
+		"zpos"          "30"
+		"wide"          "270"
+		"tall"          "15"
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "1"
+		"enabled"       "1"
 	}
+	// Name of the map in CAPS
 	"MapName"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
-		"labelText"		"%mapname%"
-		"font"			"Roboto-Regular8"
-		"fgcolor"		"NootWhite"
-		"textAlignment"	"east"
-		"xpos"			"342"
-		"ypos"			"303"
-		"zpos"			"31"
-		"wide"			"270"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"ControlName"   "CExLabel"
+		"fieldName"     "mapname"
+		"labelText"     "%mapname%"
+		"font"          "Roboto-Regular8"
+		"fgcolor"       "NootWhite"
+		"textAlignment" "east"
+		"xpos"          "342"
+		"ypos"          "294"
+		"zpos"          "31"
+		"wide"          "270"
+		"tall"          "15"
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "1"
+		"enabled"       "1"
 	}
+	// Players who are just spectating.
 	"Spectators"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
 		"labelText"		"%spectators%"
 		"font"			"Roboto-Regular8"
@@ -507,40 +500,31 @@
 		"xpos"			"18"
 		"ypos"			"294"
 		"zpos"			"32"
-		"wide"			"270"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-	//	if_mvm
-	//	{
-	//		"ypos"		"428"
-	//	}
-	}	
+		"wide"          "270"
+		"tall"          "15"
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "1"
+		"enabled"       "1"
+	}
+	// Players who are waiting to play in arena mode.
 	"SpectatorsInQueue"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SpectatorsInQueue"
-		"labelText"		"%waitingtoplay%"
-		"font"			"Roboto-Regular8"
-		"fgcolor"		"NootWhite"
-		"textAlignment"	"west"
-		"xpos"			"18"
-		"ypos"			"306"
-		"zpos"			"33"
-		"wide"			"270"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"ControlName"   "CExLabel"
+		"fieldName"     "SpectatorsInQueue"
+		"labelText"     "%waitingtoplay%"
+		"font"          "Roboto-Regular8"
+		"fgcolor"       "NootWhite"
+		"textAlignment" "west"
+		"xpos"          "18"
+		"ypos"          "303"
+		"zpos"          "33"
+		"wide"          "270"
+		"tall"          "15"
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "1"
+		"enabled"       "1"
 	}
 
 	// PLAYER

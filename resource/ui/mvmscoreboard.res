@@ -1,10 +1,10 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
+		"xpos"				"-180"
 		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"600"
@@ -14,19 +14,26 @@
 		
 		"verbose"			"1"
 	}
-	
+
+	// Name of the current MvM operation.
+	// TODO: Consider moving
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
 		"labelText"		"%popfile%"
+		"font"			"Roboto-Regular8"
+		"fgcolor"		"NootWhite"
 		"textAlignment"	"east"
-		"xpos"			"290"
-		"ypos"			"375"
-		"wide"			"290"
-		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"xpos"			"342"
+		"ypos"			"285"
+		"zpos"			"31"
+		"wide"			"270"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"DifficultyContainer"
@@ -73,29 +80,30 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
 		"xpos"			"25"
-		"ypos"			"75"
+		"ypos"			"120"
 		"zpos"			"-1"
 		"wide"			"550"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
-		
+
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 	
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
-		"ypos"			"79"
+		"xpos"			"13"
+		"ypos"			"120"
+	//	"zpos"			"18"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
@@ -103,65 +111,150 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"22"
-		"textcolor"		"White"
+		"linespacing"	"16"
+		"linegap"		"2"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
-		"wide"			"400"
+		"xpos"			"400"
+		"ypos"			"0"
+		"wide"			"200"
 		"tall"			"205"
 		"visible"		"1"
 		
 		"CreditStatsBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"135"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"visible"		"0"
+			"enabled"		"0"
 		}
-		
+
+		"NootCreditStatsBackground"
+        {
+            "ControlName"	"EditablePanel"
+            "fieldName"		"NootCreditStatsBackground"
+            "xpos"			"0"
+            "ypos"			"0"
+            "zpos"			"-1"
+            "wide"			"240"
+            "tall"			"150"
+            "autoResize"	"0"
+            "pinCorner"		"0"
+            "visible"		"1"
+            "enabled"		"1"
+            "border"		"TFFatLineBorderOpaque"
+        }
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
-			"xpos"			"8"
-			"ypos"			"8"
-			"wide"			"100"
-			"tall"			"25"
-			"fgcolor"		"tanlight"
+			"font"          "Roboto-Regular10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "6"
+			"wide"          "60"
+			"tall"          "15"
 		}
-		
+
+		"NootCreditCollectedTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditCollectedTextLabel"
+            "labelText"		"#TF_PVE_Collected"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "24"
+			"wide"          "60"
+			"tall"          "15"
+        }
+
+		"NootCreditMissedTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditMissedTextLabel"
+			"labelText"		"#TF_PVE_Missed"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "42"
+			"wide"          "60"
+			"tall"          "15"
+        }
+
+		"NootCreditBonusTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditBonusTextLabel"
+			"labelText"		"#TF_PVE_Bonus"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "60"
+			"wide"          "60"
+			"tall"          "15"
+        }
+
+		"NootCreditUpgradeTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditUpgradeTextLabel"
+			"labelText"		"#TF_PVE_Upgrades"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "78"
+			"wide"          "60"
+			"tall"          "15"
+        }
+
+		"NootCreditBuybackTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditBuybackTextLabel"
+			"labelText"		"#TF_PVE_Buybacks"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "96"
+			"wide"          "60"
+			"tall"          "15"
+        }
+
+		"NootCreditBottleTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditBottleTextLabel"
+			"labelText"		"#TF_PVE_Bottles"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "0"
+			"ypos"          "114"
+			"wide"          "60"
+			"tall"          "15"
+        }
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"8"
-			"ypos"			"30"
-			"wide"			"184"
-			"tall"			"60"
-			"wide"			"200"
+			"xpos"			"40"
+			"ypos"			"0"
+			"wide"			"60"
+			"tall"			"100"
 			"visible"		"1"
 		}
 		
@@ -169,11 +262,10 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"208"
-			"ypos"			"30"
-			"wide"			"184"
-			"tall"			"60"
-			"wide"			"200"
+			"xpos"			"106"
+			"ypos"			"0"
+			"wide"			"60"
+			"tall"			"100"
 			"visible"		"1"
 		}
 		
@@ -181,11 +273,10 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"8"
-			"ypos"			"75"
-			"wide"			"184"
+			"xpos"			"40"
+			"ypos"			"78"
+			"wide"			"60"
 			"tall"			"60"
-			"wide"			"200"
 			"visible"		"1"
 		}
 		
@@ -193,11 +284,10 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"208"
-			"ypos"			"75"
-			"wide"			"184"
+			"xpos"			"106"
+			"ypos"			"78"
+			"wide"			"60"
 			"tall"			"60"
-			"wide"			"200"
 			"visible"		"1"
 		}
 
