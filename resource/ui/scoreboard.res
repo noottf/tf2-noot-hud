@@ -94,12 +94,16 @@
 	}
 	"ServerTimeLeftValue"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeftValue"
+		// This font gets used when the cvar mp_timelimit is 0. Otherwise its get overwritten.
+		// UNKNOWN: What does this get overwritten with? Can it be changed?
 		"font"			"Roboto-Light12"
+		// Keeping this green, because it matches the green of the "Kills" and "Deaths" elements defined below.
+		// UNKNOWN: Where is this "Green" color defined? Its value in-game appears to be "0 255 0 255".
 		"fgcolor"		"Green"
 		"labelText"		"%servertime%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"xpos"			"279"
 		"ypos"			"9"
 		"zpos"			"3"
@@ -109,7 +113,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"centerwrap"			"1"
+		"centerwrap"	"1"
 		
 		if_mvm
 		{
@@ -590,7 +594,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
-		
+
+		// UNKNOWN: This does not seem to do anything.
 		if_mvm
 		{
 			"visible"		"1"
@@ -598,10 +603,10 @@
 
 		// left
 
-		"SeperatorLabel"
+		"SeparatorLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"SeperatorLabel"
+			"fieldName"		"SeparatorLabel"
 			"labelText"		":"
 			"font"			"Roboto-Medium24"
 			"fgcolor"		"NootWhite"
@@ -616,10 +621,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"SeperatorLabelDropshadow"
+		"SeparatorLabelDropshadow"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"SeperatorLabelDropshadow"
+			"fieldName"		"SeparatorLabelDropshadow"
 			"labelText"		":"
 			"font"			"Roboto-Medium24"
 			"fgcolor"		"NootShadow"
