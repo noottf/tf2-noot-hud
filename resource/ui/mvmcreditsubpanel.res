@@ -1,5 +1,6 @@
 "Resource/UI/MvMCreditSubPanel.res"
-{	
+{
+	// TODO: comment
 	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -7,7 +8,7 @@
 		"labelText"		"%header%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
-		"textAlignment" "east"
+		"textAlignment" "west"
 		"xpos"			"0"
 		"ypos"			"6"
 		"wide"			"60"
@@ -38,9 +39,9 @@
 		"labelText"		"%creditscollected%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootHealthyGreen"
-		"textAlignment" "east"
-		"xpos"          "0"
-		"ypos"          "24"
+		"textAlignment" "west"
+		"xpos"          "60"
+		"ypos"          "6"
 		"wide"          "60"
 		"tall"          "15"
 	}
@@ -61,9 +62,9 @@
 		"labelText"		"%creditsmissed%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootUnhealthyRed"
-		"textAlignment" "east"
-		"xpos"          "0"
-		"ypos"          "42"
+		"textAlignment" "west"
+		"xpos"          "120"
+		"ypos"          "6"
 		"wide"          "60"
 		"tall"          "15"
 	}
@@ -84,9 +85,9 @@
 		"labelText"		"%creditbonus%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootHealthyGreen"
-		"textAlignment" "east"
-		"xpos"          "0"
-		"ypos"          "60"
+		"textAlignment" "west"
+		"xpos"          "180"
+		"ypos"          "6"
 		"wide"          "60"
 		"tall"          "15"
 	}
@@ -97,7 +98,7 @@
 		"fieldName"		"CreditRatingLabelShadow"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%ratingshadow%"
-		"textAlignment" "east"
+		"textAlignment" "west"
 		"xpos"			"126"
 		"ypos"			"26"
 		"wide"			"70"
@@ -111,7 +112,7 @@
 		"fieldName"		"CreditRatingLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%rating%"
-		"textAlignment" "east"
+		"textAlignment" "west"
 		"xpos"			"125"
 		"ypos"			"25"
 		"wide"			"70"

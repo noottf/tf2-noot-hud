@@ -14,7 +14,7 @@ Scheme
 		"NootWhiteTransp"		"255 255 255 127"
 		"NootShadow"			"0 0 0 191"
 		"NootShadowTransp"		"0 0 0 95"
-		
+
 		"NootTeamRed"			"176 73 74 255"
 		"NootTeamBlue"			"79 117 143 255"
 		"NootTeamRedIcon"		"189 59 60 255"
@@ -34,7 +34,11 @@ Scheme
 		
 		"NootTeamBluePanel"		"79 117 143 255"
 		"NootTeamBlueFont"		"154 205 255 255"
-		
+
+		// Color from TF2's default palette, matches TFFatLineBorderOpaque borders.
+		// TODO: Currently unused. Check if needed or can be removed.
+		"NootDarkGrayPanel"     "52 48 45 255"
+
 		// base colors
 		
 		"Orange"			"178 82 22 255"

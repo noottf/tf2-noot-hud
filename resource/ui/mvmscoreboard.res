@@ -4,16 +4,32 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"-180"
-		"ypos"				"8"
+		"xpos"				"15"
+		"ypos"				"6"
 		"zpos"				"0"
 		"wide"				"600"
-		"tall"				"67"
+        "tall"			    "69"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"verbose"			"1"
 	}
+
+	"NootWaveStatusBackground"
+    {
+        "ControlName"	"EditablePanel"
+        "fieldName"		"NootWaveStatusBackground"
+		"xpos"			"15"
+		"ypos"			"6"
+        "zpos"			"-1"
+        "wide"			"600"
+        "tall"			"69"
+        "autoResize"	"0"
+        "pinCorner"		"0"
+        "visible"		"1"
+        "enabled"		"1"
+        "border"		"TFFatLineBorderOpaque"
+    }
 
 	// Name of the current MvM operation.
 	// TODO: Consider moving
@@ -45,7 +61,7 @@
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -59,7 +75,7 @@
 			"tall"			"10"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -74,35 +90,21 @@
 			"fgcolor"		"tanlight"
 		}
 	}
-	
+
 	"PlayerListBackground"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"PlayerListBackground"
-		"xpos"			"25"
-		"ypos"			"120"
-		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"150"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
-
-		"scaleImage"		"1"
-
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"ControlName"   "ScalableImagePanel"
+		"fieldName"     "PlayerListBackground"
+		"visible"       "0"
+		"enabled"       "0"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"13"
-		"ypos"			"120"
+		"ypos"			"135"
 	//	"zpos"			"18"
 		"wide"			"530"
 		"tall"			"150"
@@ -114,17 +116,17 @@
 		"linespacing"	"16"
 		"linegap"		"2"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"400"
-		"ypos"			"0"
-		"wide"			"200"
-		"tall"			"205"
+		"xpos"			"200"
+		"ypos"			"81"
+		"wide"			"420"
+		"tall"			"63"
 		"visible"		"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -140,8 +142,8 @@
             "xpos"			"0"
             "ypos"			"0"
             "zpos"			"-1"
-            "wide"			"240"
-            "tall"			"150"
+            "wide"			"420"
+			"tall"			"63"
             "autoResize"	"0"
             "pinCorner"		"0"
             "visible"		"1"
@@ -171,8 +173,8 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
-			"ypos"          "24"
+			"xpos"          "60"
+			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
         }
@@ -185,8 +187,8 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
-			"ypos"          "42"
+			"xpos"          "120"
+			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
         }
@@ -199,8 +201,8 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
-			"ypos"          "60"
+			"xpos"          "180"
+			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
         }
@@ -213,8 +215,8 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
-			"ypos"          "78"
+			"xpos"          "240"
+			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
         }
@@ -227,8 +229,8 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
-			"ypos"          "96"
+			"xpos"          "300"
+			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
         }
@@ -241,8 +243,8 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
-			"ypos"          "114"
+			"xpos"          "360"
+			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
         }
@@ -251,43 +253,43 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"40"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"100"
+			"xpos"			"0"
+			"ypos"			"18"
+			"wide"			"240"
+			"tall"			"18"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"106"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"100"
+			"xpos"			"0"
+			"ypos"			"36"
+			"wide"			"240"
+			"tall"			"18"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"40"
-			"ypos"			"78"
-			"wide"			"60"
-			"tall"			"60"
+			"xpos"			"240"
+			"ypos"			"18"
+			"wide"			"240"
+			"tall"			"18"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"106"
-			"ypos"			"78"
-			"wide"			"60"
-			"tall"			"60"
+			"xpos"			"240"
+			"ypos"			"36"
+			"wide"			"180"
+			"tall"			"18"
 			"visible"		"1"
 		}
 
