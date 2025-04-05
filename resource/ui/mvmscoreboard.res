@@ -56,8 +56,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"30"
+		"ypos"			"90"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
@@ -175,7 +175,7 @@
 			"textAlignment" "west"
 			"xpos"          "60"
 			"ypos"          "6"
-			"wide"          "60"
+			"wide"          "45"
 			"tall"          "15"
         }
 
@@ -187,9 +187,9 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "120"
+			"xpos"          "105"
 			"ypos"          "6"
-			"wide"          "60"
+			"wide"          "45"
 			"tall"          "15"
         }
 
@@ -201,7 +201,7 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "180"
+			"xpos"          "150"
 			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
