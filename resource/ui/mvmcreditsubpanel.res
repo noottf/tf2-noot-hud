@@ -39,10 +39,10 @@
 		"labelText"		"%creditscollected%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootHealthyGreen"
-		"textAlignment" "west"
+		"textAlignment" "center"
 		"xpos"          "60"
 		"ypos"          "6"
-		"wide"          "60"
+		"wide"          "48"
 		"tall"          "15"
 	}
 	
@@ -62,10 +62,10 @@
 		"labelText"		"%creditsmissed%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootUnhealthyRed"
-		"textAlignment" "west"
-		"xpos"          "120"
+		"textAlignment" "center"
+		"xpos"          "108"
 		"ypos"          "6"
-		"wide"          "60"
+		"wide"          "48"
 		"tall"          "15"
 	}
 	
@@ -85,38 +85,38 @@
 		"labelText"		"%creditbonus%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootHealthyGreen"
-		"textAlignment" "west"
-		"xpos"          "180"
+		"textAlignment" "center"
+		"xpos"          "156"
 		"ypos"          "6"
-		"wide"          "60"
+		"wide"          "48"
 		"tall"          "15"
 	}
-		
+
 	"CreditRatingLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"HudFontMediumBold"
 		"labelText"		"%ratingshadow%"
-		"textAlignment" "west"
-		"xpos"			"126"
-		"ypos"			"26"
-		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"Black"
+		"font"			"Roboto-Regular16"
+		"fgcolor"		"NootShadow"
+		"textAlignment" "center"
+		"xpos"			"205"
+		"ypos"          "6"
+		"wide"			"48"
+		"tall"			"15"
 	}
-	
+
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"%rating%"
-		"textAlignment" "west"
-		"xpos"			"125"
-		"ypos"			"25"
-		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"font"			"Roboto-Regular16"
+		"fgcolor"		"NootWhite"
+		"textAlignment" "center"
+		"xpos"			"204"
+		"ypos"          "5"
+		"wide"			"48"
+		"tall"			"15"
 	}
 }

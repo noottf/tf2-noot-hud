@@ -31,23 +31,20 @@
         "border"		"TFFatLineBorderOpaque"
     }
 
-	// Name of the current MvM operation.
-	// TODO: Consider moving
+	// Name of the current MvM mission.
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
 		"labelText"		"%popfile%"
-		"font"			"Roboto-Regular8"
+		"font"			"Roboto-Light10"
 		"fgcolor"		"NootWhite"
-		"textAlignment"	"east"
-		"xpos"			"342"
-		"ypos"			"285"
+		"textAlignment"	"west"
+		"xpos"			"33"
+		"ypos"			"105"
 		"zpos"			"31"
-		"wide"			"270"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"          "120"
+		"tall"          "15"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -56,38 +53,47 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"30"
-		"ypos"			"90"
-		"wide"			"150"
-		"tall"			"20"
+		"xpos"			"15"
+		"ypos"			"81"
+        "wide"			"156"
+		"tall"			"63"
 		"visible"		"1"
+
+		"NootMissionLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NootMissionLabel"
+			"labelText"		"Mission"
+			"font"          "Roboto-Regular10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "6"
+			"wide"          "120"
+			"tall"          "15"
+		}
 
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"150"
-			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"9"
-			"wide"			"150"
-			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "42"
+			"wide"          "120"
+			"tall"          "15"
 		}
 	}
 
@@ -105,7 +111,6 @@
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"13"
 		"ypos"			"135"
-	//	"zpos"			"18"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
@@ -121,11 +126,28 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"200"
+		"xpos"			"15"
 		"ypos"			"81"
-		"wide"			"420"
+		"wide"			"600"
 		"tall"			"63"
 		"visible"		"1"
+
+		// TODO: Move?
+		"NootMissionBackground"
+        {
+            "ControlName"	"EditablePanel"
+            "fieldName"		"NootMissionBackground"
+            "xpos"			"0"
+            "ypos"			"0"
+            "zpos"			"-1"
+            "wide"			"156"
+			"tall"			"63"
+            "autoResize"	"0"
+            "pinCorner"		"0"
+            "visible"		"1"
+            "enabled"		"1"
+            "border"		"TFFatLineBorderOpaque"
+        }
 
 		"CreditStatsBackground"
 		{
@@ -139,10 +161,10 @@
         {
             "ControlName"	"EditablePanel"
             "fieldName"		"NootCreditStatsBackground"
-            "xpos"			"0"
+            "xpos"			"162"
             "ypos"			"0"
             "zpos"			"-1"
-            "wide"			"420"
+            "wide"			"438"
 			"tall"			"63"
             "autoResize"	"0"
             "pinCorner"		"0"
@@ -159,7 +181,7 @@
 			"font"          "Roboto-Regular10"
 			"fgcolor"       "NootWhite"
 			"textAlignment" "west"
-			"xpos"          "0"
+			"xpos"          "180"
 			"ypos"          "6"
 			"wide"          "60"
 			"tall"          "15"
@@ -172,10 +194,10 @@
             "labelText"		"#TF_PVE_Collected"
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
-			"textAlignment" "west"
-			"xpos"          "60"
+			"textAlignment" "center"
+			"xpos"          "240"
 			"ypos"          "6"
-			"wide"          "45"
+			"wide"          "48"
 			"tall"          "15"
         }
 
@@ -186,10 +208,10 @@
 			"labelText"		"#TF_PVE_Missed"
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
-			"textAlignment" "west"
-			"xpos"          "105"
+			"textAlignment" "center"
+			"xpos"          "288"
 			"ypos"          "6"
-			"wide"          "45"
+			"wide"          "48"
 			"tall"          "15"
         }
 
@@ -200,10 +222,24 @@
 			"labelText"		"#TF_PVE_Bonus"
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
-			"textAlignment" "west"
-			"xpos"          "150"
+			"textAlignment" "center"
+			"xpos"          "336"
 			"ypos"          "6"
-			"wide"          "60"
+			"wide"          "48"
+			"tall"          "15"
+        }
+
+        "NootCreditRatingTextLabel"
+        {
+            "ControlName"	"CExLabel"
+            "fieldName"		"NootCreditRatingTextLabel"
+			"labelText"		"#TF_PVE_Rating"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "center"
+			"xpos"          "384"
+			"ypos"          "6"
+			"wide"          "48"
 			"tall"          "15"
         }
 
@@ -214,10 +250,10 @@
 			"labelText"		"#TF_PVE_Upgrades"
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
-			"textAlignment" "west"
-			"xpos"          "240"
+			"textAlignment" "center"
+			"xpos"          "444"
 			"ypos"          "6"
-			"wide"          "60"
+			"wide"          "48"
 			"tall"          "15"
         }
 
@@ -228,10 +264,10 @@
 			"labelText"		"#TF_PVE_Buybacks"
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
-			"textAlignment" "west"
-			"xpos"          "300"
+			"textAlignment" "center"
+			"xpos"          "492"
 			"ypos"          "6"
-			"wide"          "60"
+			"wide"          "48"
 			"tall"          "15"
         }
 
@@ -242,57 +278,62 @@
 			"labelText"		"#TF_PVE_Bottles"
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootWhite"
-			"textAlignment" "west"
-			"xpos"          "360"
+			"textAlignment" "center"
+			"xpos"          "540"
 			"ypos"          "6"
-			"wide"          "60"
+			"wide"          "48"
 			"tall"          "15"
         }
 
+		// Contents defined in "Resource/UI/MvMCreditSubPanel.res".
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"0"
+			"xpos"			"180"
 			"ypos"			"18"
-			"wide"			"240"
-			"tall"			"18"
+			"wide"			"264"
+			"tall"			"27"
 			"visible"		"1"
 		}
 
+		// Contents defined in "Resource/UI/MvMCreditSubPanel.res".
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"0"
+			"xpos"			"180"
 			"ypos"			"36"
-			"wide"			"240"
-			"tall"			"18"
+			"wide"			"264"
+			"tall"			"27"
 			"visible"		"1"
 		}
 
+		// Contents defined in "Resource/UI/MvMCreditSpendPanel.res".
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"240"
+			"xpos"			"444"
 			"ypos"			"18"
-			"wide"			"240"
-			"tall"			"18"
+			"wide"			"144"
+			"tall"			"27"
 			"visible"		"1"
 		}
 
+		// Contents defined in "Resource/UI/MvMCreditSpendPanel.res".
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"240"
+			"xpos"			"444"
 			"ypos"			"36"
-			"wide"			"180"
-			"tall"			"18"
+			"wide"			"144"
+			"tall"			"27"
 			"visible"		"1"
 		}
 
+		// UNKNOWN: What is this?
 		"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -300,8 +341,8 @@
 			"font"			"HudFontSmall"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-east"
-			"xpos"			"115"
-			"ypos"			"8"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"275"
 			"tall"			"20"
 			"fgcolor"		"tanlight"

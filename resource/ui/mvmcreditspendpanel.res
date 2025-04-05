@@ -4,7 +4,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%header%"
 		"visible"		"0"
 		"enabled"		"0"
@@ -23,7 +22,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
 		"labelText"		"#TF_PVE_Upgrades"
-		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -35,10 +33,10 @@
 		"labelText"		"%upgrades%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
-		"textAlignment" "west"
+		"textAlignment" "center"
 		"xpos"          "0"
 		"ypos"          "6"
-		"wide"          "60"
+		"wide"          "48"
 		"tall"          "15"
 	}
 	
@@ -58,10 +56,10 @@
 		"labelText"		"%buybacks%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
-		"textAlignment" "west"
-		"xpos"          "60"
+		"textAlignment" "center"
+		"xpos"          "48"
 		"ypos"          "6"
-		"wide"          "60"
+		"wide"          "48"
 		"tall"          "15"
 	}
 	
@@ -81,10 +79,10 @@
 		"labelText"		"%bottles%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
-		"textAlignment" "west"
-		"xpos"          "120"
+		"textAlignment" "center"
+		"xpos"          "96"
 		"ypos"          "6"
-		"wide"          "60"
+		"wide"          "48"
 		"tall"          "15"
 	}
 }
