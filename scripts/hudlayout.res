@@ -222,6 +222,10 @@
 		//"TextFont"	"Default"	[$X360]
 	}
 
+	// Player name, health, etc. when:
+	// - Looking at a player
+	// - Looking at a building
+	// - Healing a player
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
@@ -241,24 +245,10 @@
 	//		"x_offset"	"20"
 	//	}
 	}
-	
-	CSpectatorTargetID
-	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"zpos"		"3"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
-		"priority_lodef" "35"
-		
-		//"x_offset" "20"
-		//"y_offset" "20"
-	}
-	
+
+	// Player name, health, etc. when:
+	// - Being healed
+	// - Looking at a player while healing someone else
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
@@ -277,6 +267,26 @@
 	//		"x_offset"	"20"
 	//	}
 
+	}
+
+	// Player name, health, etc. when:
+	// - Spectating as a spectator
+	// - Spectating after having died
+	CSpectatorTargetID
+	{
+		"fieldName" 	"CSpectatorTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"c30"
+		"zpos"		"3"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"priority"	"40"
+		"priority_lodef" "35"
+		
+		//"x_offset" "20"
+		//"y_offset" "20"
 	}
 	
 	BuildingStatus_Spy
