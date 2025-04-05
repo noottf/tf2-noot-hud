@@ -24,18 +24,18 @@
 	"WaveCountLabel"
 	{
 		"ControlName"   "CExLabel"
-		"fieldName"		"WaveCountLabel"
-		"labelText"		"%wave_count%"
+		"fieldName"     "WaveCountLabel"
+		"labelText"     "%wave_count%"
 		"font"          "Roboto-Light12"
 		"fgcolor"       "NootWhite"
-		"textAlignment"	"center"
+		"textAlignment" "center"
 		"xpos"          "0"
 		"ypos"          "6"
 		"zpos"          "11"
 		"wide"          "600"
 		"tall"          "12"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"       "1"
+		"enabled"       "1"
 	}
 
 	// The separate between the normal units of the wave and the support units.
@@ -57,47 +57,47 @@
 		// UNKNOWN: This is used in the HUD and scoreboard. When is it not?
 		if_verbose
 		{
-			"visible"		"1"
+			"visible"       "1"
 		}
 	}
 
 	// Text that says "Support" for support units (as opposed to the number for normal units)
 	"SupportLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportLabel"
+		"ControlName"   "CExLabel"
+		"fieldName"     "SupportLabel"
 		"labelText"     "#TF_MVM_Support"
 		"font"          "Roboto-Light10"
-		"fgcolor"		"NootWhite"
-		"textAlignment"	"center" // The element gets resized automatically. This is just here for completeness.
-		"xpos"			"55"
-		"ypos"			"6"
-		"zpos"			"3"
-		"wide"			"60"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
+		"fgcolor"       "NootWhite"
+		"textAlignment" "center" // The element gets resized automatically. This is just here for completeness.
+		"xpos"          "55"
+		"ypos"          "6"
+		"zpos"          "3"
+		"wide"          "60"
+		"tall"          "12"
+		"visible"       "0"
+		"enabled"       "1"
 
-		// UNKNOWN: This is used in the HUD and scoreboard. When is it not?
+		// UNKNOWN: This is visible in the HUD and scoreboard. When is it not?
 		if_verbose
 		{
-			"visible"		"1"
-		}		
+			"visible"       "1"
+		}
 	}
 
 	// The progress bar for the current wave. Seems that using a ScalableImagePanel is forced here.
 	"ProgressBar"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"ProgressBar"
-		"xpos"			"210"
-		"ypos"			"21"
-		"zpos"			"3"
-		"wide"			"180"
-		"tall"			"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"ControlName"   "ScalableImagePanel"
+		"fieldName"     "ProgressBar"
+		"xpos"          "210"
+		"ypos"          "21"
+		"zpos"          "3"
+		"wide"          "180"
+		"tall"          "6"
+		"visible"       "1"
+		"enabled"       "1"
+		"image"         "../HUD/tournament_panel_blu"
 
 		"src_corner_height"     "23"
 		"src_corner_width"      "23"
@@ -108,16 +108,16 @@
 	// The progress bar for the current wave. Seems that using a ScalableImagePanel is forced here.
 	"ProgressBarBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"ProgressBarBG"
-		"xpos"			"210"
-		"ypos"			"21"
-		"zpos"			"3"
-		"wide"			"180"
-		"tall"			"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_tan"
+		"ControlName"   "ScalableImagePanel"
+		"fieldName"     "ProgressBarBG"
+		"xpos"          "210"
+		"ypos"          "21"
+		"zpos"          "3"
+		"wide"          "180"
+		"tall"          "6"
+		"visible"       "1"
+		"enabled"       "1"
+		"image"         "../HUD/tournament_panel_tan"
 
 		"src_corner_height"     "23"
 		"src_corner_width"      "23"
