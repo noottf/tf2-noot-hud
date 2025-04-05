@@ -1,36 +1,36 @@
 "Resource/UI/MvMCreditSpendPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HeaderLabel"
-		"labelText"		"%header%"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "HeaderLabel"
+		"labelText"     "%header%"
+		"visible"       "0"
+		"enabled"       "0"
 	}
 		
 	"TableBackground"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TableBackground"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "EditablePanel"
+		"fieldName"     "TableBackground"
+		"visible"       "0"
+		"enabled"       "0"
 	}
 	
 	"UpgradesLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"UpgradesLabel"
-		"labelText"		"#TF_PVE_Upgrades"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "UpgradesLabel"
+		"labelText"     "#TF_PVE_Upgrades"
+		"visible"       "0"
+		"enabled"       "0"
 	}
 	
 	"UpgradesCountLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"UpgradesCountLabel"
-		"labelText"		"%upgrades%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "UpgradesCountLabel"
+		"labelText"     "%upgrades%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
 		"textAlignment" "center"
@@ -42,18 +42,18 @@
 	
 	"BuyBackLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BuyBackLabel"
-		"labelText"		"#TF_PVE_Buybacks"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "BuyBackLabel"
+		"labelText"     "#TF_PVE_Buybacks"
+		"visible"       "0"
+		"enabled"       "0"
 	}
 	
 	"BuyBackCountLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BuyBackCountLabel"
-		"labelText"		"%buybacks%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "BuyBackCountLabel"
+		"labelText"     "%buybacks%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
 		"textAlignment" "center"
@@ -65,18 +65,18 @@
 	
 	"BottleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BottleLabel"
-		"labelText"		"#TF_PVE_Bottles"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "BottleLabel"
+		"labelText"     "#TF_PVE_Bottles"
+		"visible"       "0"
+		"enabled"       "0"
 	}
 	
 	"BottleCountLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BottleCountLabel"
-		"labelText"		"%bottles%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "BottleCountLabel"
+		"labelText"     "%bottles%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
 		"textAlignment" "center"

@@ -1,42 +1,44 @@
 "Resource/UI/MvMCreditSubPanel.res"
 {
-	// TODO: comment
+	// In the scoreboard's "PreviousWaveCreditSpendPanel", this will tell the current wave, like "Wave 3".
+	// In the scoreboard's "TotalGameCreditSpendPanel", this will say "Game Total".
+	// In the "WaveCompleteSummaryPanel", this will not show.
 	"HeaderLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HeaderLabel"
-		"labelText"		"%header%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "HeaderLabel"
+		"labelText"     "%header%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootWhite"
 		"textAlignment" "west"
-		"xpos"			"0"
-		"ypos"			"6"
-		"wide"			"60"
-		"tall"			"15"
+		"xpos"          "0"
+		"ypos"          "6"
+		"wide"          "60"
+		"tall"          "15"
 	}
-		
+
 	"TableBackground"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TableBackground"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "EditablePanel"
+		"fieldName"     "TableBackground"
+		"visible"       "0"
+		"enabled"       "0"
 	}
-	
+
 	"CreditCollectedTextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedTextLabel"
-		"labelText"		"#TF_PVE_Collected"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditCollectedTextLabel"
+		"labelText"     "#TF_PVE_Collected"
+		"visible"       "0"
+		"enabled"       "0"
 	}
-	
+
 	"CreditCollectedCountLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditCollectedCountLabel"
-		"labelText"		"%creditscollected%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditCollectedCountLabel"
+		"labelText"     "%creditscollected%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootHealthyGreen"
 		"textAlignment" "center"
@@ -45,21 +47,21 @@
 		"wide"          "48"
 		"tall"          "15"
 	}
-	
+
 	"CreditMissedTextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditMissedTextLabel"
-		"labelText"		"#TF_PVE_Missed"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditMissedTextLabel"
+		"labelText"     "#TF_PVE_Missed"
+		"visible"       "0"
+		"enabled"       "0"
 	}
-	
+
 	"CreditMissedCountLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditMissedCountLabel"
-		"labelText"		"%creditsmissed%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditMissedCountLabel"
+		"labelText"     "%creditsmissed%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootUnhealthyRed"
 		"textAlignment" "center"
@@ -68,21 +70,21 @@
 		"wide"          "48"
 		"tall"          "15"
 	}
-	
+
 	"CreditBonusTextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditBonusTextLabel"
-		"labelText"		"#TF_PVE_Bonus"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditBonusTextLabel"
+		"labelText"     "#TF_PVE_Bonus"
+		"visible"       "0"
+		"enabled"       "0"
 	}
-	
+
 	"CreditBonusCountLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditBonusCountLabel"
-		"labelText"		"%creditbonus%"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditBonusCountLabel"
+		"labelText"     "%creditbonus%"
 		"font"          "Roboto-Light10"
 		"fgcolor"       "NootHealthyGreen"
 		"textAlignment" "center"
@@ -94,29 +96,29 @@
 
 	"CreditRatingLabelShadow"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditRatingLabelShadow"
-		"labelText"		"%ratingshadow%"
-		"font"			"Roboto-Regular16"
-		"fgcolor"		"NootShadow"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditRatingLabelShadow"
+		"labelText"     "%ratingshadow%"
+		"font"          "Roboto-Regular16"
+		"fgcolor"       "NootShadow"
 		"textAlignment" "center"
-		"xpos"			"205"
+		"xpos"          "205"
 		"ypos"          "6"
-		"wide"			"48"
-		"tall"			"15"
+		"wide"          "48"
+		"tall"          "15"
 	}
 
 	"CreditRatingLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditRatingLabel"
-		"labelText"		"%rating%"
-		"font"			"Roboto-Regular16"
-		"fgcolor"		"NootWhite"
+		"ControlName"   "CExLabel"
+		"fieldName"     "CreditRatingLabel"
+		"labelText"     "%rating%"
+		"font"          "Roboto-Regular16"
+		"fgcolor"       "NootWhite"
 		"textAlignment" "center"
-		"xpos"			"204"
+		"xpos"          "204"
 		"ypos"          "5"
-		"wide"			"48"
-		"tall"			"15"
+		"wide"          "48"
+		"tall"          "15"
 	}
 }
