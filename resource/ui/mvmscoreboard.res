@@ -129,10 +129,9 @@
 		"xpos"			"15"
 		"ypos"			"81"
 		"wide"			"600"
-		"tall"			"63"
+		"tall"			"240"
 		"visible"		"1"
 
-		// TODO: Move?
 		"NootMissionBackground"
         {
             "ControlName"	"EditablePanel"
@@ -333,19 +332,22 @@
 			"visible"		"1"
 		}
 
-		// UNKNOWN: What is this?
+		// Requires a rare setting where players need to earn a specific amount of credits in order to earn "respec" or
+		// "Refund Tokens" before they can refund their upgrades. Since this is almost always disabled and therefore
+		// invisible, the layout does not really take it into account and we just place it at the bottom where there is
+		// still some available space.
 		"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%respecstatus%"
-			"textAlignment" "north-east"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"275"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"ypos"			"218"
+			"wide"			"600"
+			"tall"			"15"
 		}
 	}
 }
