@@ -1,222 +1,224 @@
 "Resource/UI/WaveCompletePanel.res"
-{		
+{
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"250"
-		"tall"			"80"
+		"wide"			"240"
+		"tall"			"90"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"src_corner_height"     "22"
+		"src_corner_width"      "22"
+
+		"draw_corner_width"     "0"
+		"draw_corner_height"    "0"
 	}
-	
+
 	"WaveCompleteContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WaveCompleteContainer"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"250"
-		"tall"			"35"
+		"wide"			"240"
+		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
-		
+		"PaintBackgroundType" "0"
+
 		"WaveCompleteLabelShadow"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontMediumSmallBold"
-			"textAlignment"	"center"
-			"labelText"		"%titletext%"
-			"xpos"			"3"
-			"ypos"			"3"
-			"wide"			"245"
-			"tall"			"36"
+			"ControlName"   "CExLabel"
+			"fieldName"     "WaveCompleteLabelShadow"
+			"labelText"     "%titletext%"
+			"font"          "Roboto-Light20"
+			"fgcolor"       "NootShadow"
+			"textAlignment" "center"
+			"xpos"			"6"
+			"ypos"			"6"
+			"wide"			"228"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"black"		
-			
+
 			// Red Background
-			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
-			"bgcolor_override"	"190 60 60 225"
+			"PaintBackgroundType"   "0"
+			"bgcolor_override"	    "NootTeamRedPanel"
+
+			"draw_corner_width"     "0"
+			"draw_corner_height"    "0"
 		}
-		
+
 		"WaveCompleteLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"WaveCompleteLabel"
-			"font"			"HudFontMediumSmallBold"
-			"textAlignment"	"center"
-			"labelText"		"%titletext%"
-			"xpos"			"2"
-			"ypos"			"2"
-			"wide"			"244"
-			"tall"			"35"
+			"ControlName"   "CExLabel"
+			"fieldName"     "WaveCompleteLabel"
+			"labelText"     "%titletext%"
+			"font"          "Roboto-Light20"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "center"
+			"xpos"			"5"
+			"ypos"			"5"
+			"wide"			"228"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
 		}
 	}
-		
+
 	"CreditContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"45"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
 		"visible"		"1"
-		
+
 		"CreditCollectedTextLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#TF_PVE_CurrencyCollected"
-			"textAlignment" "north-east"
-			"xpos"			"0"
-			"ypos"			"9"
-			"wide"			"105"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"ControlName"   "CExLabel"
+			"fieldName"     "CreditCollectedTextLabel"
+			"labelText"     "#TF_PVE_CurrencyCollected"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "6"
+			"wide"          "72"
+			"tall"          "15"
 		}
-		
+
 		"CreditCollectedCountLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"%creditscollected%"
-			"textAlignment" "north-east"
-			"xpos"			"115"
-			"ypos"			"9"
-			"wide"			"30"
-			"tall"			"20"
-			"fgcolor"		"CreditsGreen"
+			"ControlName"   "CExLabel"
+			"fieldName"     "CreditCollectedCountLabel"
+			"labelText"     "%creditscollected%"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootHealthyGreen"
+			"textAlignment" "east"
+			"xpos"          "75"
+			"ypos"          "6"
+			"wide"          "48"
+			"tall"          "15"
 		}
-		
+
 		"CreditMissedTextLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HudFontSmallest"
+			"ControlName"   "CExLabel"
+			"fieldName"     "CreditMissedTextLabel"
 			"labelText"		"#TF_PVE_Missed"
-			"textAlignment" "north-east"
-			"xpos"			"0"
-			"ypos"			"21"
-			"wide"			"105"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "24"
+			"wide"          "45"
+			"tall"          "15"
 		}
-		
+
 		"CreditMissedCountLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditMissedCountLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"%creditsmissed%"
-			"textAlignment" "north-east"
-			"xpos"			"115"
-			"ypos"			"21"
-			"wide"			"30"
-			"tall"			"20"
-			"fgcolor"		"RedSolid"
+			"ControlName"   "CExLabel"
+			"fieldName"     "CreditMissedCountLabel"
+			"labelText"     "%creditsmissed%"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootUnhealthyRed"
+			"textAlignment" "east"
+			"xpos"          "75"
+			"ypos"          "24"
+			"wide"          "48"
+			"tall"          "15"
 		}
-		
+
 		"CreditBonusTextLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HudFontSmallest"
+			"ControlName"   "CExLabel"
+			"fieldName"     "CreditBonusTextLabel"
 			"labelText"		"#TF_PVE_Bonus"
-			"textAlignment" "north-east"
-			"xpos"			"0"
-			"ypos"			"33"
-			"wide"			"105"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "42"
+			"wide"          "72"
+			"tall"          "15"
 		}
-		
+
 		"CreditBonusCountLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CreditBonusCountLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"%creditbonus%"
-			"textAlignment" "north-east"
-			"xpos"			"115"
-			"ypos"			"33"
-			"wide"			"30"
-			"tall"			"20"
-			"fgcolor"		"CreditsGreen"
+			"ControlName"   "CExLabel"
+			"fieldName"     "CreditBonusCountLabel"
+			"labelText"     "%creditbonus%"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootHealthyGreen"
+			"textAlignment" "east"
+			"xpos"          "75"
+			"ypos"          "42"
+			"wide"          "48"
+			"tall"          "15"
 		}
 	}
-	
+
 	"RatingContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RatingContainer"
 		"xpos"			"140"
-		"ypos"			"30"
+		"ypos"			"45"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
 		"visible"		"1"
-		
+
 		"RatingLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RatingLabel"
-			"font"			"HudFontSmall"
+			"ControlName"   "CExLabel"
+			"fieldName"     "RatingLabel"
 			"labelText"		"%ratinglabel%"
-			"textAlignment" "center"
-			"xpos"			"0"
-			"ypos"			"5"
-			"wide"			"115"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "6"
+			"wide"          "72"
+			"tall"          "15"
 		}
-		
+
 		"RatingTextShadow"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%ratingscore%"
-			"textAlignment" "center"
-			"xpos"			"1"
-			"ypos"			"20"
-			"wide"			"115"
-			"tall"			"30"
-			"fgcolor"		"Black"
+			"ControlName"   "CExLabel"
+			"fieldName"     "RatingTextShadow"
+			"labelText"     "%ratingscore%"
+            "font"          "Roboto-Regular16"
+            "fgcolor"       "NootShadow"
+            "textAlignment" "center"
+            "xpos"          "18"
+            "ypos"          "24"
+            "wide"          "48"
+            "tall"          "15"
 		}
-		
+
 		"RatingText"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RatingText"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%ratingscore%"
-			"textAlignment" "center"
-			"xpos"			"0"
-			"ypos"			"19"
-			"wide"			"115"
-			"tall"			"30"
-			"fgcolor"		"White"
+			"ControlName"   "CExLabel"
+			"fieldName"     "RatingText"
+			"labelText"     "%ratingscore%"
+            "font"          "Roboto-Regular16"
+            "fgcolor"       "NootWhite"
+            "textAlignment" "center"
+            "xpos"          "17"
+            "ypos"          "23"
+            "wide"          "48"
+            "tall"          "15"
 		}
 	}
 
@@ -236,9 +238,9 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
 	}
 
 	"RespecContainer"
@@ -251,7 +253,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
-	
+
 		"RespecTextLabelWin"
 		{
 			"ControlName"	"CExLabel"
@@ -265,7 +267,7 @@
 			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"	"CExLabel"
