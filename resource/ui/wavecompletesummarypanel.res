@@ -2,17 +2,17 @@
 {
 	"Background"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"240"
-		"tall"			"90"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"ControlName"   "ScalableImagePanel"
+		"fieldName"     "Background"
+		"xpos"          "0"
+		"ypos"          "0"
+		"wide"          "240"
+		"tall"          "96"
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "1"
+		"enabled"       "1"
+		"image"         "../HUD/tournament_panel_brown"
 
 		"src_corner_height"     "22"
 		"src_corner_width"      "22"
@@ -23,14 +23,14 @@
 
 	"WaveCompleteContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WaveCompleteContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"240"
-		"tall"			"36"
-		"visible"		"1"
-		"PaintBackgroundType" "0"
+		"ControlName"           "EditablePanel"
+		"fieldName"             "WaveCompleteContainer"
+		"xpos"                  "0"
+		"ypos"                  "0"
+		"wide"                  "240"
+		"tall"                  "36"
+		"visible"               "1"
+		"PaintBackgroundType"   "0"
 
 		"WaveCompleteLabelShadow"
 		{
@@ -72,14 +72,28 @@
 		}
 	}
 
+	"NootSeparatorBar"
+	{
+		"ControlName"           "Panel"
+		"fieldName"             "NootSeparatorBar"
+		"xpos"                  "159"
+		"ypos"                  "40"
+		"wide"                  "1"
+		"tall"                  "48"
+		"visible"               "1"
+		"enabled"               "1"
+		"PaintBackgroundType"   "2"
+		"bgcolor_override"      "NootWhite"
+	}
+
 	"CreditContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
 		"xpos"			"0"
-		"ypos"			"45"
-		"wide"			"400"
-		"tall"			"400"
+		"ypos"			"33"
+		"wide"			"159"
+		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"1"
 
@@ -105,7 +119,7 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootHealthyGreen"
 			"textAlignment" "east"
-			"xpos"          "75"
+			"xpos"          "93"
 			"ypos"          "6"
 			"wide"          "48"
 			"tall"          "15"
@@ -133,7 +147,7 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootUnhealthyRed"
 			"textAlignment" "east"
-			"xpos"          "75"
+			"xpos"          "93"
 			"ypos"          "24"
 			"wide"          "48"
 			"tall"          "15"
@@ -161,7 +175,7 @@
 			"font"          "Roboto-Light10"
 			"fgcolor"       "NootHealthyGreen"
 			"textAlignment" "east"
-			"xpos"          "75"
+			"xpos"          "93"
 			"ypos"          "42"
 			"wide"          "48"
 			"tall"          "15"
@@ -172,10 +186,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RatingContainer"
-		"xpos"			"140"
-		"ypos"			"45"
-		"wide"			"400"
-		"tall"			"400"
+		"xpos"			"159"
+		"ypos"			"33"
+		"wide"			"81"
+		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"1"
 
@@ -189,7 +203,7 @@
 			"textAlignment" "west"
 			"xpos"          "18"
 			"ypos"          "6"
-			"wide"          "72"
+            "wide"          "48"
 			"tall"          "15"
 		}
 
@@ -224,23 +238,23 @@
 
 	"RespecBackground"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"RespecBackground"
-		"xpos"			"0"
-		"ypos"			"80"
-		"wide"			"250"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"ControlName"   "ScalableImagePanel"
+		"fieldName"     "RespecBackground"
+		"xpos"          "0"
+		"ypos"          "120"
+		"wide"          "240"
+		"tall"			"27"
+		"autoResize"    "0"
+		"pinCorner"     "0"
+		"visible"       "0"
+		"enabled"       "1"
+		"image"         "../HUD/tournament_panel_brown"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"     "22"
+		"src_corner_width"      "22"
 
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"     "0"
+		"draw_corner_height"    "0"
 	}
 
 	"RespecContainer"
@@ -248,9 +262,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RespecContainer"
 		"xpos"			"0"
-		"ypos"			"80"
-		"wide"			"250"
-		"tall"			"25"
+		"ypos"			"120"
+		"wide"			"240"
+		"tall"			"27"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
 
@@ -258,28 +272,29 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelWin"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_PVE_Respecs"
-			"textAlignment" "center"
-			"xpos"			"0"
-			"ypos"			"3"
-			"wide"			"160"
-			"tall"			"20"
-			"fgcolor"		"tanlight"
+			//"labelText"		"#TF_PVE_Respecs" // Includes a colon at the end which we don't want.
+			"labelText"		"Upgrade Refund Credits"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootWhite"
+			"textAlignment" "west"
+			"xpos"          "18"
+			"ypos"          "6"
+			"wide"          "90"
+			"tall"          "15"
 		}
 
 		"RespecCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%respeccount%"
-			"textAlignment" "center"
-			"xpos"			"145"
-			"ypos"			"3"
-			"wide"			"30"
-			"tall"			"20"
-			"fgcolor"		"CreditsGreen"
+			"font"          "Roboto-Light10"
+			"fgcolor"       "NootHealthyGreen"
+			"textAlignment" "east"
+			"xpos"          "93"
+			"ypos"          "6"
+			"wide"          "48"
+			"tall"          "15"
 		}
 	}
 }
