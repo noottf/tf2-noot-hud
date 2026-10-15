@@ -6232,62 +6232,62 @@ Scheme
 		// noot-hud
 		"8"
 		{
-			"font"	"fonts/Roboto-Thin.ttf"
+			"font"	"fonts/roboto-thin.ttf"
 			"name"	"Roboto Thin"
 		}
 		"9"
 		{
-			"font"	"fonts/Roboto-ThinItalic.ttf"
+			"font"	"fonts/roboto-thinitalic.ttf"
 			"name"	"Roboto Thin Italic"
 		}
 		"10"
 		{
-			"font"	"fonts/Roboto-Light.ttf"
+			"font"	"fonts/roboto-light.ttf"
 			"name"	"Roboto Light"
 		}
 		"11"
 		{
-			"font"	"fonts/Roboto-LightItalic.ttf"
+			"font"	"fonts/roboto-lightitalic.ttf"
 			"name"	"Roboto Light Italic"
 		}
 		"12"
 		{
-			"font"	"fonts/Roboto-Regular.ttf"
+			"font"	"fonts/roboto-regular.ttf"
 			"name"	"Roboto"
 		}
 		"13"
 		{
-			"font"	"fonts/Roboto-Italic.ttf"
+			"font"	"fonts/roboto-italic.ttf"
 			"name"	"Roboto Italic"
 		}
 		"14"
 		{
-			"font"	"fonts/Roboto-Medium.ttf"
+			"font"	"fonts/roboto-medium.ttf"
 			"name"	"Roboto Medium"
 		}
 		"15"
 		{
-			"font"	"fonts/Roboto-MediumItalic.ttf"
+			"font"	"fonts/roboto-mediumitalic.ttf"
 			"name"	"Roboto Medium Italic"
 		}
 		"16"
 		{
-			"font"	"fonts/Roboto-Bold.ttf"
+			"font"	"fonts/roboto-bold.ttf"
 			"name"	"Roboto Bold"
 		}
 		"17"
 		{
-			"font"	"fonts/Roboto-BoldItalic.ttf"
+			"font"	"fonts/roboto-bolditalic.ttf"
 			"name"	"Roboto Bold Italic"
 		}
 		"18"
 		{
-			"font"	"fonts/Roboto-Black.ttf"
+			"font"	"fonts/roboto-black.ttf"
 			"name"	"Roboto Black"
 		}
 		"19"
 		{
-			"font"	"fonts/Roboto-BlackItalic.ttf"
+			"font"	"fonts/roboto-blackitalic.ttf"
 			"name"	"Roboto Black Italic"
 		}
 	}
